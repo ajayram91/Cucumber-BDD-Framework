@@ -6,8 +6,11 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features/login.feature",
-glue = {"stepdefinitions"}, plugin = {"pretty", "html:target/craterhtmlreport.html","json:target/craterreport.json"}
+@CucumberOptions(features = "src/test/resources/features/",
+glue = {"stepdefinitions", "hooks"}, plugin = {"pretty", "html:target/craterhtmlreport.html","json:target/craterreport.json",
+"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+        tags ="@regression",
+        monochrome = true
 
 
 )
