@@ -13,7 +13,6 @@ Feature: Login to Crater
     Then I should see the Settings page
     And I log out of crater application
 
-
   Scenario: User should not be able to login with invalid username and password
       When I enter "invalidemail@gmail.com" in the email field
       And I enter "invalid" in the password field

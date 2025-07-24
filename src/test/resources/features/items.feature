@@ -1,6 +1,6 @@
 Feature: Add Item Functionality
 
-  @regression
+  @regression @5.1 @items
   Scenario: User Sucessfully adds a new item
     Given User is logged in sucessfully
     When User clicks on the Add Item button

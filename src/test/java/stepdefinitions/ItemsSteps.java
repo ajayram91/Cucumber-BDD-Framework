@@ -28,10 +28,10 @@ public class ItemsSteps {
 
     @Given("User is logged in sucessfully")
     public void user_is_logged_in_sucessfully() {
-       driver.get("http://crater.primetech-apps.com/login");
-       loginPage.emailInput.sendKeys("ajay@primetechschool.com");
-       loginPage.passwordInput.sendKeys("ptschool");
-       loginPage.loginButton.click();
+        driver.get("http://crater.primetech-apps.com/login");
+        loginPage.emailInput.sendKeys("ajay@primetechschool.com");
+        loginPage.passwordInput.sendKeys("ptschool");
+        loginPage.loginButton.click();
     }
     @When("User clicks on the Add Item button")
     public void user_clicks_on_the_add_item_button() {
