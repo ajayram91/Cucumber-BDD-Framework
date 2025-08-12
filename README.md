@@ -128,20 +128,3 @@ Archive target/extent/Spark.html
 
 Publish Cucumber HTML report from target/cucumber-html-reports
 
-👤 Author
-Created and maintained by Ajay Ramesh
-
-pgsql
-Copy
-Edit
-
-Do you want me to **add a “Badges Section”** at the top (Java version, build status, etc.) so it looks more professional on GitHub? That would make your README pop visually.
-
-
-
-
-
-
-
-
-Ask ChatGPT
